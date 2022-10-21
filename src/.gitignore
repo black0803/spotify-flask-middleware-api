@@ -2,3 +2,4 @@
 env.h
 *.log
 venv
+.env
