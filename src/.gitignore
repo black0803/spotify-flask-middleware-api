@@ -3,3 +3,4 @@ env.h
 *.log
 venv
 .env
+__pycache__
