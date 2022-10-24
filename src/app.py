@@ -20,7 +20,7 @@ CORS(app)
 translator = Translator()
 
 serverIP=os.getenv('FLASK_SERVER', "http://127.0.0.1:5000")
-MONGO_URL = "mongodb://" + os.getenv('MONGO_HOST', 'localhost:27017')
+MONGO_URL = os.getenv('MONGO_HOST', 'mongodb://localhost:27017')
 REDIRECT_URL = os.getenv('REDIRECT_URL', "http://127.0.0.1:5000/callback")
 
 myclient = pymongo.MongoClient(MONGO_URL)
