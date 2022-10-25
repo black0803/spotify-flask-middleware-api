@@ -61,6 +61,8 @@
 
  To test the endpoint, head to my server and insert ``nobita`` to GetSong API Test Form. You can see my currently-playing song in the JSON output.
 
+ DISCLAIMER: Data is saved on mongodb atlas server. I personally just leave it live and does not observe the DB. If you are trying to use the publicly hosted mongodb, please do with your own risk. I as the app developer won't be responsible for the data you inserted, since this is actually just meant for my home project.
+
  ### (Planned) Future Improvements:
  - Showing the song duration and current progress of the song. I haven't consider how things will be shown on the LCD as currently it already occupies the whole 16x2 slot as is. However, it is possible to implement this and I will try to do it as well.
  - Dockerize app.
