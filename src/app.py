@@ -107,6 +107,8 @@ def json_create(ins, status):
     data["device_name"] = ins["device"]["name"]
     data["status"] = ins["is_playing"]
     data["timer"] = int(ins["item"]["duration_ms"]) - int(ins["progress_ms"])
+    data["duration"] = int(ins["item"]["duration_ms"])
+    data["current"] = int(ins["progress_ms"])
     print(data)
     return data
 
