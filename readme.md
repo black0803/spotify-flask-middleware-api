@@ -24,6 +24,7 @@
 
  ### How to use:
  - If you just want to run the web server, you can just do as follow:
+   - Copy ``.env`` file from ``.env_copy``, and adjust the variables inside (``$MONGO_HOST`` and ``$FLASK_SERVER``) to suit your need.
    - Run ``python -m venv <venv>`` to initialize venv for your python script folder
    - Run ``<venv>/bin/activate`` to start your console in virtual environment
    - Install the libraries using ``pip install -r requirements.txt``
