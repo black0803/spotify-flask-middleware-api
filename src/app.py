@@ -268,7 +268,7 @@ def get_track():
         payload={
             "uid": request.form['uid']
         }   
-        r = requests.post("http://" + serverIP + "/refresh", data=payload)
+        r = requests.post(serverIP + "/refresh", data=payload)
         mydoc = mycol.find_one(myquery)
     token = mydoc["access_token"]
 
